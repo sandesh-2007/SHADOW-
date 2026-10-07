@@ -1,0 +1,6 @@
+{
+  "name": "SHADOW",
+  "description": "Anonymous college social and chat app. No names, no followers, no pressure. Just conversations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

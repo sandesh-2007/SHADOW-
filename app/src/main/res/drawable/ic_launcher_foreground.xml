@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Glow Aura -->
+    <path
+        android:pathData="M54,22 C36.33,22 22,36.33 22,54 C22,71.67 36.33,86 54,86 C71.67,86 86,71.67 86,54 C86,36.33 71.67,22 54,22 Z"
+        android:strokeWidth="1.5">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="22"
+                android:startY="22"
+                android:endX="86"
+                android:endY="86"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#998B5CF6" />
+                <item android:offset="1.0" android:color="#9922D3EE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Eclipse Crescent Symbol -->
+    <path
+        android:pathData="M64,30 C50,30 38,40 38,54 C38,68 50,78 64,78 C54,78 44,70 44,54 C44,38 54,30 64,30 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="30"
+                android:endX="64"
+                android:endY="78"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF8B5CF6" />
+                <item android:offset="1.0" android:color="#FF22D3EE" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Minimal Anonymous Mask / Hood Eye Slit -->
+    <path
+        android:pathData="M52,50 C58,50 62,52 65,54 C62,56 58,58 52,58 C46,58 42,56 39,54 C42,52 46,50 52,50 Z"
+        android:fillColor="#F8FAFC" />
+    <path
+        android:pathData="M52,52.5 A1.5,1.5 0 1,0 52,55.5 A1.5,1.5 0 1,0 52,52.5 Z"
+        android:fillColor="#8B5CF6" />
+</vector>
